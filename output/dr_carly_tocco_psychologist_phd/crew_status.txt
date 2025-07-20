@@ -1,0 +1,150 @@
+SUCCESS
+[
+  {
+    "model": "google_veo_v3",
+    "scene": {
+      "title": "Serene Office Scene",
+      "duration_seconds": 8,
+      "fps": 30,
+      "aspect_ratio": "16:9",
+      "style": {
+        "render": "realistic",
+        "lighting": "soft and warm",
+        "camera_equipment": "DSLR with wide lens"
+      },
+      "character": {
+        "name": "Dr. Carly Tocco",
+        "appearance": "professional attire, warm smile",
+        "emotional_journey": "transmits calmness and support"
+      },
+      "environment": {
+        "location": "therapy room",
+        "props": [
+          "comfortable chair",
+          "soft cushions",
+          "plants"
+        ],
+        "atmospherics": "soft lighting in calming colors"
+      },
+      "script": [
+        {
+          "type": "stage_direction",
+          "character": "Dr. Carly Tocco",
+          "movement": "gently arranging cushions and adjusting lighting"
+        }
+      ]
+    }
+  },
+  {
+    "model": "google_veo_v3",
+    "scene": {
+      "title": "Active Listening Moment",
+      "duration_seconds": 8,
+      "fps": 30,
+      "aspect_ratio": "16:9",
+      "style": {
+        "render": "intimate and realistic",
+        "lighting": "natural light",
+        "camera_equipment": "DSLR with close-up lens"
+      },
+      "character": {
+        "name": "Dr. Carly Tocco",
+        "appearance": "engaged expression, attentive posture",
+        "emotional_journey": "demonstrates deep empathy"
+      },
+      "environment": {
+        "location": "therapy room",
+        "props": [
+          "notepad",
+          "pen"
+        ],
+        "atmospherics": "calm and focused atmosphere"
+      },
+      "script": [
+        {
+          "type": "stage_direction",
+          "character": "Dr. Carly Tocco",
+          "movement": "leans slightly forward to listen"
+        },
+        {
+          "type": "dialogue",
+          "character": "Dr. Carly Tocco",
+          "line": "I’m here to listen, you can share what’s on your mind."
+        }
+      ]
+    }
+  },
+  {
+    "model": "google_veo_v3",
+    "scene": {
+      "title": "Compassionate Gesture",
+      "duration_seconds": 8,
+      "fps": 30,
+      "aspect_ratio": "16:9",
+      "style": {
+        "render": "emotional and warm",
+        "lighting": "soft-focused",
+        "camera_equipment": "DSLR with macro lens"
+      },
+      "character": {
+        "name": "Dr. Carly Tocco",
+        "appearance": "compassionate demeanor",
+        "emotional_journey": "projects warmth and reassurance"
+      },
+      "environment": {
+        "location": "therapy room",
+        "props": [
+          "tissues",
+          "calming art"
+        ],
+        "atmospherics": "inviting and warm"
+      },
+      "script": [
+        {
+          "type": "stage_direction",
+          "character": "Dr. Carly Tocco",
+          "movement": "extends hand toward the client in a supportive gesture"
+        }
+      ]
+    }
+  },
+  {
+    "model": "google_veo_v3",
+    "scene": {
+      "title": "Bridging Science and Therapy",
+      "duration_seconds": 8,
+      "fps": 30,
+      "aspect_ratio": "16:9",
+      "style": {
+        "render": "educational and clear",
+        "lighting": "bright and engaging",
+        "camera_equipment": "DSLR with wide lens"
+      },
+      "character": {
+        "name": "Dr. Carly Tocco",
+        "appearance": "informative stance, clear expression",
+        "emotional_journey": "instills understanding and clarity"
+      },
+      "environment": {
+        "location": "office with a whiteboard",
+        "props": [
+          "brain graphics",
+          "markers"
+        ],
+        "atmospherics": "dynamic and engaging"
+      },
+      "script": [
+        {
+          "type": "stage_direction",
+          "character": "Dr. Carly Tocco",
+          "movement": "gestures towards the brain graphics on the board"
+        },
+        {
+          "type": "dialogue",
+          "character": "Dr. Carly Tocco",
+          "line": "Let’s explore how our minds work, starting with these concepts."
+        }
+      ]
+    }
+  }
+]
