@@ -1,0 +1,208 @@
+[
+    {
+      "business_type": "psychologist",
+      "default_scale": "solo",
+      "region_hints": ["urban NE", "suburban coastal", "residential conversion"],
+      "client_motivation": "Clients seek personal wellness, emotional relief, and private support from someone they trust.",
+      "scene_templates": [
+        "Interior therapy space with natural light and calming decor",
+        "Therapist preparing the space quietly before a session (no client shown)",
+        "Owner reviewing handwritten notes or updating a schedule near a window"
+      ],
+      "scene_constraints": {
+        "avoid": ["clients in distress", "hospital-like aesthetics"],
+        "include": [
+          "parents playing with kids outside",
+          "calm décor",
+          "a person looking content out the window of a coffee shop",
+          "someone walking down the street smiling and with confidence"
+        ]
+      }
+    },
+    {
+      "business_type": "realtor",
+      "default_scale": "solo",
+      "region_hints": ["suburban", "small town", "urban"],
+      "client_motivation": "Clients want trusted guidance through the emotional journey of buying or selling a home.",
+      "scene_templates": [
+        "Unlocking a front door of a well-staged home",
+        "Walking through a neighborhood with recognizable architecture",
+        "Owner reviewing a map or tablet with a client"
+      ],
+      "scene_constraints": {
+        "avoid": ["corporate conference rooms", "unrealistic luxury properties"],
+        "include": [
+          "family walking into a cozy suburban home",
+          "neighborhood with region-specific trees or flowers",
+          "person placing a 'Sold' sign in yard",
+          "kids playing on grass in front of new home"
+        ]
+      }
+    },
+    {
+      "business_type": "gym",
+      "default_scale": "small_team",
+      "region_hints": ["strip mall", "converted space", "neighborhood"],
+      "client_motivation": "Clients want motivation, routine, and human connection in their fitness journey.",
+      "scene_templates": [
+        "Smiling person stretching after a workout in morning light",
+        "Someone checking off a completed fitness goal on a chalkboard wall",
+        "Friends laughing together after a group class"
+      ],
+      "scene_constraints": {
+        "avoid": ["anonymous crowds", "mirror walls with rows of machines"],
+        "include": ["chalk goals", "sweat towels", "fitness wristbands"]
+      }
+    },
+    {
+      "business_type": "landscaper",
+      "default_scale": "small_team",
+      "region_hints": ["residential neighborhoods", "rural outskirts"],
+      "client_motivation": "Homeowners want trusted, local help to beautify their space and add curb appeal.",
+      "scene_templates": [
+        "Homeowner admiring a freshly trimmed garden with pride",
+        "A tree-lined driveway with fresh mulch and blooming flowerbeds",
+        "A quiet morning view of a manicured yard with trimmed hedges"
+      ],
+      "scene_constraints": {
+        "avoid": ["commercial plazas", "uniformed fleets"],
+        "include": ["gloves/tools", "yard textures", "outdoor color"]
+      }
+    },
+    {
+      "business_type": "cafe",
+      "default_scale": "small_team",
+      "region_hints": ["historic town centers", "side streets", "college towns"],
+      "client_motivation": "People come for routine, comfort, and community in their daily ritual.",
+      "scene_templates": [
+        "Smiling person sipping coffee near a sunny window",
+        "Friends sharing a laugh over pastries",
+        "Someone journaling quietly at a cozy corner table"
+      ],
+      "scene_constraints": {
+        "avoid": ["fast-food styling", "plastic displays"],
+        "include": ["chalk menus", "warm wood tones", "steaming mugs"]
+      }
+    },
+    {
+      "business_type": "barbershop",
+      "default_scale": "solo or duo",
+      "region_hints": ["urban storefront", "strip plaza", "residential"],
+      "client_motivation": "Customers want to feel fresh, confident, and known by their barber.",
+      "scene_templates": [
+        "Someone confidently admiring a fresh haircut in a mirror",
+        "Child smiling while spinning in a barber chair",
+        "Relaxed vibe with light chatter and open door"
+      ],
+      "scene_constraints": {
+        "avoid": ["high-end salon vibe", "silent sterile rooms"],
+        "include": ["clippers", "casual seats", "natural daylight"]
+      }
+    },
+    {
+      "business_type": "florist",
+      "default_scale": "solo or couple-owned",
+      "region_hints": ["main street", "indoor kiosk", "strip mall"],
+      "client_motivation": "Customers want beauty, sentiment, and timely personal touches (for gifts, events, or self-care).",
+      "scene_templates": [
+        "Person placing fresh flowers into a vase at home",
+        "Someone receiving a bouquet with visible joy",
+        "Tabletop with colorful stems being arranged for a celebration"
+      ],
+      "scene_constraints": {
+        "avoid": ["cold warehouse setups", "generic fake flowers"],
+        "include": ["paper wrap", "hands arranging flowers", "bloom textures"]
+      }
+    },
+    {
+      "business_type": "daycare",
+      "default_scale": "small team",
+      "region_hints": ["converted house", "church basement", "storefront"],
+      "client_motivation": "Parents want safety, warmth, and someone who sees their child as more than a number.",
+      "scene_templates": [
+        "Kids laughing while stacking blocks in warm light",
+        "Parent picking up child who runs to hug them",
+        "Personalized cubbies with small shoes and art projects"
+      ],
+      "scene_constraints": {
+        "avoid": ["institutional scale", "unsupervised kids"],
+        "include": ["child-safe items", "warm tones", "handmade posters"]
+      }
+    },
+    {
+      "business_type": "therapeutic massage",
+      "default_scale": "solo or duo",
+      "region_hints": ["converted office", "wellness co-op", "strip mall"],
+      "client_motivation": "Clients seek relief from stress, injury, or chronic tension in a trusted and quiet setting.",
+      "scene_templates": [
+        "Relaxed person sipping tea post-session in a softly lit space",
+        "Peaceful close-up of stones, towels, and warm textures",
+        "Curtains moving gently in a quiet, serene room"
+      ],
+      "scene_constraints": {
+        "avoid": ["clinical exam tables", "noisy spa visuals"],
+        "include": ["candles", "fabric textures", "natural light"]
+      }
+    },
+    {
+      "business_type": "cleaning service",
+      "default_scale": "solo or small crew",
+      "region_hints": ["suburban homes", "downtown offices"],
+      "client_motivation": "Clients want their space cared for, trusted access, and time freed up.",
+      "scene_templates": [
+        "Homeowner smiling at a freshly cleaned kitchen",
+        "Sunlight glinting off tidy countertops and folded towels",
+        "Shoes at a doorway with visible vacuum lines in background"
+      ],
+      "scene_constraints": {
+        "avoid": ["maid stereotypes", "cold industrial settings"],
+        "include": ["before/after moment", "cozy interiors", "entryway light"]
+      }
+    },
+    {
+      "business_type": "contractor/handyman",
+      "default_scale": "solo",
+      "region_hints": ["older homes", "local neighborhood"],
+      "client_motivation": "Homeowners want functional fixes from someone reliable, skilled, and local.",
+      "scene_templates": [
+        "Homeowner testing a smoothly sliding drawer",
+        "Daylight pouring into a refreshed room with visible upgrades",
+        "Simple repairs in progress: level on shelf, paint drying"
+      ],
+      "scene_constraints": {
+        "avoid": ["team in branded vans", "warehouse scenes"],
+        "include": ["real tools", "visible improvement", "home light"]
+      }
+    },
+    {
+      "business_type": "therapist (group practice)",
+      "default_scale": "small team",
+      "region_hints": ["downtown professional suite", "converted house"],
+      "client_motivation": "Clients want to feel seen, understood, and supported in a space that feels approachable — even if multiple therapists work there.",
+      "scene_templates": [
+        "Person reading a magazine in a warm, inviting waiting room",
+        "Light filtering through plants in a quiet space",
+        "Soft rug and side table with tissue box and calming decor"
+      ],
+      "scene_constraints": {
+        "avoid": ["group therapy depiction", "hospital lighting"],
+        "include": ["calm tones", "soft textures", "privacy cues"]
+      }
+    },
+    {
+      "business_type": "pet grooming",
+      "default_scale": "solo or duo",
+      "region_hints": ["strip mall", "home-based", "mobile van"],
+      "client_motivation": "Pet owners want trusted, gentle care with visible results — and emotional calm for their animal.",
+      "scene_templates": [
+        "Happy dog wagging tail after a fresh trim",
+        "Owner smiling while pet looks curious on table",
+        "Before-and-after of fluffy vs. neatly groomed"
+      ],
+      "scene_constraints": {
+        "avoid": ["sterile metal tables", "impersonal back rooms"],
+        "include": ["pet towels", "treats jar", "pet expressions"]
+      }
+    }
+]
+  

@@ -1,18 +1,21 @@
 {
-  "name": "Dr. Carly Tocco, Psychologist, PhD",
-  "launch_year": null,
-  "origin": "Clinical neuropsychologist in Old Greenwich, CT",
+  "name": "Admerasia",
+  "launch_year": 1993,
+  "origin": "Multicultural advertising agency based in New York City, NY",
   "key_traits": [
-    "Specializes in neuropsychological assessments (ADHD, autism, mood, personality)",
-    "Provides therapy for teens and adults (ADHD, autism, anxiety, depression, life transitions)",
-    "Uses evidence‑based modalities: DBT, CBT, MI, Behavioral Activation",
-    "Offers both in‑person and telehealth sessions",
-    "Evening and weekend availability",
-    "Out‑of‑network insurance with monthly superbill support"
+    "Full-service marketing and advertising agency specializing in Asian American audiences",
+    "Certified minority-owned small business with over 30 years of experience",
+    "Expertise in cultural strategy, creative production, media planning, and public relations",
+    "Creates campaigns that bridge brands with culture, community, and identity",
+    "Known for immersive storytelling and cross-cultural campaign execution",
+    "Partners with Fortune 500 brands across categories including CPG, tech, and finance"
   ],
-  "slogans": [],
+  "slogans": [
+    "Brands & Culture & People",
+    "Ideas & Insights & Identity"
+  ],
   "urls": [
-    "https://www.psychologytoday.com/us/therapists/carly-tocco-old-greenwich-ct/1201611"
+    "https://www.admerasia.com"
   ],
-  "notes": "Clinical neuropsychologist blending scientific research, curiosity, and empathy; offers assessments and therapy for ADHD/autism, anxiety, depression, life transitions; office at 3 West End Ave Suite 103A, Old Greenwich, CT; evening/weekend sessions; out‑of‑network billing with superbill support."
+  "notes": "Admerasia is a leading multicultural agency focused on connecting brands with diverse communities through culture-first creative strategy. Based in NYC and certified as a minority-owned small business, they specialize in Asian American marketing and have received accolades for their authentic storytelling and strategic insight across media, digital, and experiential work."
 }

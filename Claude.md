@@ -190,6 +190,12 @@ Each file will contain the agent’s role, task, key outputs, and any assumption
 
 ---
 
+## Update: Small Business-Aware Creative Logic [2025-07-20]
+- Replaced `Creative Synthesizer` with `Business Creative Synthesizer`
+- Added new role: `SmallBusiness Localizer` for scale-aware grounding
+- Updated `tasks.py` to branch small business workflows accordingly
+- Created modular config: `small_business_localizer.json` for type-specific scene guidance
+
 ## Setup
 
 Before running the workflow, install all required dependencies:
@@ -216,19 +222,27 @@ To set up your environment:
    # Should print Python 3.12.x
    ```
 
-2. **Create and activate a virtual environment:**
+2. **Create a virtual environment (only once per project):**
    ```bash
    python3.12 -m venv .venv
+   ```
+   This creates a `.venv` folder in your project. It persists until you delete it.
+
+3. **Activate the virtual environment (every new terminal session):**
+   ```bash
    source .venv/bin/activate
    ```
+   You must activate `.venv` each time you open a new terminal before running or installing anything for this project. Your prompt will usually show `(.venv)` when active.
 
-3. **Install requirements:**
+4. **Install requirements (after activating .venv):**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the workflow:**
+5. **Run the workflow:**
    ```bash
+   python crew_setup.py
+   # or, if you want to be explicit:
    python3.12 crew_setup.py
    ```
 
